@@ -7,7 +7,7 @@
     --cor-0 : #197BBD;
     --cor-1 : #FFA500;
     --cor-2 : #FFBF00;
-    --cor-3 : #125E8A;
+    --cor-3 : #861388;
     --cor-4 : #8A716A;
 }
 
@@ -22,8 +22,9 @@ html, body {
 }
 
 section#login {
-    background-color: red;
     border-radius: 20px;
+
+    box-shadow: 0px 0px 15px 0px #0000007a;
     position: absolute;
     left: 50%;
     top: 50%;
