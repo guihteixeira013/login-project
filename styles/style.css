@@ -1,7 +1,56 @@
 @charset "UTF-8";
 
-/*Color Pallete
+/* MOBILE FIRST */
 
+/*Color Palette*/
+:root {
+    --cor-0 : #197BBD;
+    --cor-1 : #FFA500;
+    --cor-2 : #FFBF00;
+    --cor-3 : #125E8A;
+    --cor-4 : #8A716A;
+}
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0xp;
+}
 
-*/
+html, body {
+    background-color: var(--cor-3);
+}
+
+section#login {
+    background-color: red;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#image {
+    background: url(../images/background-will-mu.jpg) center center no-repeat fixed;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    width: 270px;
+    height: 200px;
+}
+
+div#content {
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+div#content > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+div#content > p {
+    
+}
