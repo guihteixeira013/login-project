@@ -52,6 +52,65 @@ div#content > h1 {
     text-align: center;
 }
 
-div#content > p {
-    
+.sign {
+    background-color: var(--cor-1);
+    border-radius: 10px;
+    margin: 5px 0px 5px 0px;
+    padding: 2px;
+    height: 40px;
+}
+
+.sign > input {
+    background-color: rgb(255 255 255 / 65%);;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+    margin-left: 35px;
+    padding: 10px;
+    width: 210px;
+    height: 40px;
+}
+
+.sign input:hover {
+    background-color: white;
+}
+
+.sign label span {
+    color: white;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 2px;
+    position: absolute;
+}
+
+input.sub {
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 35px;
+}
+
+input#iLog {
+    background-color: var(--cor-4);
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#iLog:hover {
+    background-color: var(--cor-0);
+    cursor: pointer;
+}
+
+input#iForg {
+    border: 2px solid var(--cor-4);
+    color: var(--cor-4);
+    font-size: 1em;
+}
+
+#iForg:hover {
+    background-color: var(--cor-0);
+    color: white;
+    cursor: pointer;
 }
