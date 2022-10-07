@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* TABLET VERSION */
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     html, body{
         background-color: var(--cor-0);
@@ -15,6 +17,7 @@
         border-radius: 20px 0px 0px 20px;
         width: 20vw;
         height: 320px;
+        transition: width 0.09s;
     }
 
     div#content {
@@ -22,6 +25,7 @@
         position: fixed;
         border-radius: 0px 20px 20px 0px;
         width: 53vw;
+
     }
 
     .sign > input {
