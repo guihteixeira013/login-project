@@ -23,7 +23,8 @@
 
     div#content {
         border-radius: 20px 0px 0px 20px;
-        width: 375px;
+        width: 395px;
+        height: 320px;
         transition: width 0.1s;
     }
 
