@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/*  DEVICE BREAKPOINT
+
+Small Screens: to 600px     
+Mobile: 600px to 768px      
+Tablet: 768px to 992px      
+Desktop: 992px to 1200px   
+Large Screens: above 1200px 
+
+*/
+
+/* TABLET VERSION */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, var(--cor-3), var(--cor-4));
+    }
+
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#image {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#content {
+        float: right;
+        width: 70%;
+    }
+
+/* THE NEXT REVIEW to down */
+
+    input#iLog {
+        height: 50px;
+        margin-top: 5px;
+    }
+
+    input#iForg {
+        height: 50px;
+    }
+}
+
+/* LARGE SCREENS VERSION*/
+
+@media screen and (min-width: 992px){
+    body{
+        background-image: linear-gradient(to top, var(--cor-3), var(--cor-4));
+    }
+
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#image {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#content {
+        float: left;
+        width: 50%;
+    }
+
+ /* THE NEXT REVIEW to down */
+    input#iLog {
+        height: 50px;
+        margin-top: 5px;
+    }
+
+    input#iForg {
+        height: 50px;
+    }
+}

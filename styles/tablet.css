@@ -1,43 +1,4 @@
 @charset "UTF-8";
 
-/* TABLET VERSION */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    html, body{
-        background-color: var(--cor-0);
-    }
 
-    section#login {
-        width: 75vw;
-        height: 320px;
-    }
-
-    div#image {
-        display: inline-block;
-        border-radius: 20px 0px 0px 20px;
-        width: 20vw;
-        height: 320px;
-        transition: width 0.09s;
-    }
-
-    div#content {
-        display: inline-block;
-        position: fixed;
-        border-radius: 0px 20px 20px 0px;
-        width: 55vw;
-        height: 320px;
-    }
-
-    .sign > input {
-        width: 48.8vw;
-    }
-
-    input#iLog {
-        height: 50px;
-        margin-top: 5px;
-    }
-
-    input#iForg {
-        height: 50px;
-    }
-}
