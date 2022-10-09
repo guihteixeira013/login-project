@@ -17,30 +17,24 @@
             </div>
             <div id="content">
                 <h1>Login</h1>
-                <p>Welcome again. Log in to access your account and be able to configure settings in your environment.</p>
+                <p>
+                    Welcome again. Log in to access your account and be able to configure settings in your environment.
+                </p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <p class="sign">
-                        <label for="iUser">
-                            <span class="material-symbols-outlined">
-                            person
-                            </span>
-                        </label>
+                    <div class="sign">
+                        <span class="material-symbols-outlined">person</span>
                         <input type="email" name="user" id="iUser" required placeholder="Your e-mail address" size="15" autocomplete="email" maxlength="35">
-                    </p>
-                    <p class="sign">
-                        <label for="iPass">
-                            <span class="material-symbols-outlined">
-                            key
-                            </span>
-                        </label>
+                        <label for="iUser">User</label>
+                    </div>
+                    <div class="sign">
+                        <span class="material-symbols-outlined">vpn_key</span>
                         <input type="password" name="pass" id="iPass" required placeholder="Your password" size="15" autocomplete="current-password" minlength="8" maxlength="25" >
-                    </p>
-                    <p>
-                        <input class="sub" type="submit" id="iLog" value="Login">
-                    </p>
-                    <p>
-                        <input class="sub" type="submit" id="iForg" value="I forgot my password &#x2709">
-                    </p>
+                        <label for="iPass">Password</label>
+                    </div>
+                    <input class="sub" type="submit" id="iLog" value="Login">
+                    <a href="#" id="iForg">
+                        Forgot your password? <span class="material-symbols-outlined">&#x2709</span>
+                    </a>
                 </form>
             </div>
         </section>

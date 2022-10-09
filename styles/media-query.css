@@ -39,8 +39,9 @@ Large Screens: above 1200px
         margin-top: 5px;
     }
 
-    input#iForg {
+    #iForg {
         height: 50px;
+        padding-top: 10px;
     }
 }
 
@@ -72,7 +73,8 @@ Large Screens: above 1200px
         margin-top: 5px;
     }
 
-    input#iForg {
+    #iForg {
         height: 50px;
+        padding-top: 10px;
     }
 }
