@@ -19,6 +19,7 @@ Large Screens: above 1200px
 
     section#login {
         width: 80vw;
+        height: 315px;
     }
 
     section#login > div#image {
@@ -51,6 +52,7 @@ Large Screens: above 1200px
 
     section#login {
         width: 950px;
+        height: 320px;
     }
 
     section#login > div#image {
