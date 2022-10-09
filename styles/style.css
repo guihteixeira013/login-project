@@ -41,7 +41,7 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 15px 0px #0000007a;
     width: 270px;
-    height: 500px;
+    height: 515px;
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
@@ -64,9 +64,7 @@ section#login > div#content > h1 {
     text-align: center;
 }
 
- /* THE NEXT REVIEW to down */
-
-.sign {
+form > div.sign {
     background-color: var(--cor-1);
     border: 2px solid transparent;
     border-radius: 10px;
@@ -75,7 +73,7 @@ section#login > div#content > h1 {
     overflow: hidden;
 }
 
-.sign > input {
+form > div.sign > input {
     background-color: rgb(255 255 255 / 65%);
     border-radius: 10px;
     border: none;
@@ -85,39 +83,36 @@ section#login > div#content > h1 {
     height: 36px;
 }
 
-.sign input:hover {
+form > div.sign input:hover {
     background-color: white;
 }
 
-span {
+div.sign > span {
     color: white;
-    font-size: 30px;
+    font-size: 30x;
     padding-top: 5px;
     padding-left: 2px;
     position: absolute;
 }
 
-input.sub {
+form > input[type=submit] {
     border: none;
     border-radius: 5px;
     margin-bottom: 5px;
     width: 100%;
     height: 35px;
-}
-
-input#iLog {
     background-color: var(--cor-4);
     color: white;
+    cursor: pointer;
     font-weight: bold;
     font-size: 1.1em;
 }
 
-#iLog:hover {
+form > input[type=submit]:hover {
     background-color: var(--cor-0);
-    cursor: pointer;
 }
 
-#iForg {
+form > a.iForg {
     display: block;
     border: 2px solid var(--cor-4);
     color: var(--cor-4);
@@ -125,13 +120,17 @@ input#iLog {
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    padding-top: 3px;
+    padding-top: 4px;
     width: 100%;
     height: 35px;
 }
 
-#iForg:hover {
+form > a.iForg:hover {
     background-color: var(--cor-0);
     color: white;
     cursor: pointer;
+}
+
+form > a.iForg > span {
+    font-size: 1em;
 }
