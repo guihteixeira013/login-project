@@ -95,8 +95,7 @@ form > div.sign > input {
     transform: translate(1px, -12px);
 }
 
-form > div.sign > input:focus-within {
-    background-color: white;
+form > div.sign > input:focus-within {  
     outline: none;
 }
 

@@ -39,5 +39,33 @@
             </div>
         </section>
     </main>
+    <script>
+        var iblur = window.document.getElementById('iUser')
+        var iblur2 = window.document.getElementById('iPass')
+        iblur.addEventListener('focus', toblur)
+        iblur.addEventListener('focusout', toleave)
+        iblur2.addEventListener('focus', toblur2)
+        iblur2.addEventListener('focusout', toleave2)
+
+        function toblur() {     // When click to write email
+            iblur.style.background = '#8A716A'
+            iblur.style.color = 'white'            
+        }
+
+        function toleave() {    // When leave the field (return the same formats)
+            iblur.style.background = '#ffd17c'
+            iblur.style.color = 'black'
+        }
+// I CANT SIMPLYFIED 
+        function toblur2() {     
+            iblur2.style.background = '#8A716A'
+            iblur2.style.color = 'white'            
+        }
+
+        function toleave2() {    
+            iblur2.style.background = '#ffd17c'
+            iblur2.style.color = 'black'
+        }
+    </script>
 </body>
 </html>
